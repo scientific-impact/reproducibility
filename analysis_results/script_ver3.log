@@ -1,0 +1,969 @@
+
+======================================================================
+  naidv1_train_GPT
+======================================================================
+  [       GPT]  2000 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/GPT/llm_scores.json)
+  Remaining samples after filtering: 2000
+                                     id  cites_json  ...       ARQ  Ref_num
+0  bbf2c38f-cf00-43fc-bb69-b584c3f7ef88          25  ...  0.832440       79
+1  9ca67657-4fac-4a83-8831-1b3a9f256676          97  ...  0.934194       30
+2  128fa877-6a1a-4085-98de-88c92c0fb678          19  ...  0.728939       55
+3  16be72c5-6c70-4d47-a965-aef88a0434ca          41  ...  0.862237       46
+4  0988d454-da39-4ced-a75f-12852f59c186          58  ...  0.790145       34
+
+[5 rows x 77 columns]
+  Valid samples: 2000
+  Antonym loadings correlation: {'Quality & Reliability': -0.845, 'Accessibility & Understandability': -0.877, 'Novelty & Engagement': -0.777}
+
+  Spearman ρ  (n ≈ 2000):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.017                 0.078                  0.052
+OA                                        0.039                 0.071                  0.143
+RQM                                       0.087                 0.111                  0.060
+Ref_num                                  -0.058                 0.349                  0.069
+SMP                                      -0.150                -0.106                 -0.059
+SOTA                                     -0.162                 0.145                  0.220
+TNCSI                                     0.096                 0.193                  0.160
+TNCSI_SP                                  0.091                 0.210                  0.195
+cites                                     0.100                 0.284                  0.205
+is_broad                                  0.091                 0.037                 -0.014
+is_practical                              0.141                -0.208                  0.206
+new_dataset                               0.236                -0.019                  0.093
+new_task                                  0.087                 0.078                  0.050
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_GPT/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_GPT/loadings_heatmap.png
+
+======================================================================
+  naidv1_train_Deepseek
+======================================================================
+  [  Deepseek]  1969 OK,   31 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Deepseek/llm_scores.json)
+  Remaining samples after filtering: 1969
+                                     id  cites_json  ...       ARQ  Ref_num
+0  88a0ec63-bd23-431d-85e5-4d1951110121         113  ...  0.861340       34
+1  17b29880-0a19-4394-86b1-008e41315e18           8  ...  0.752027       56
+2  37592471-27fb-4148-8b5b-582c63a9ab97           1  ...  0.860494       54
+3  fab85aa6-9725-40e5-8314-c7d91c4fc584           3  ...  0.330437       62
+4  8041f4b9-312d-4f3a-ac1b-7c5d5735ce33          22  ...  0.869048       42
+
+[5 rows x 77 columns]
+  Valid samples: 1969
+  Antonym loadings correlation: {'Quality & Reliability': -0.843, 'Accessibility & Understandability': -0.811, 'Novelty & Engagement': -0.855}
+
+  Spearman ρ  (n ≈ 1969):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.056                 0.079                  0.076
+OA                                        0.040                 0.008                  0.106
+RQM                                       0.100                 0.105                  0.086
+Ref_num                                  -0.086                 0.232                  0.018
+SMP                                      -0.114                -0.086                 -0.062
+SOTA                                      0.003                 0.151                  0.193
+TNCSI                                     0.090                 0.134                  0.143
+TNCSI_SP                                  0.103                 0.157                  0.151
+cites                                     0.103                 0.225                  0.151
+is_broad                                  0.063                -0.023                 -0.045
+is_practical                              0.216                -0.185                  0.172
+new_dataset                               0.221                -0.112                  0.112
+new_task                                  0.092                 0.013                  0.080
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Deepseek/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Deepseek/loadings_heatmap.png
+
+======================================================================
+  naidv1_train_Llama-3.1
+======================================================================
+  [ Llama-3.1]  1999 OK,    1 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Llama-3.1/llm_scores.json)
+  Remaining samples after filtering: 1999
+                                     id  cites_json  ...       ARQ  Ref_num
+0  2857dbfb-3a66-4ebc-af30-ed909f00689e         224  ...  0.734386       53
+1  133297b7-f1e7-4b73-97b9-c92280efe0ae         128  ...  0.367887       67
+2  3049f0f3-a244-4116-aef6-9d3c0566ffc1           2  ...  0.821853       45
+3  8c95450c-b188-4f6e-840f-80e66a835886          81  ...  0.906436       65
+4  8975b950-98d6-4e12-a5ae-34d08dcbfe1e          11  ...  0.797514       28
+
+[5 rows x 77 columns]
+  Valid samples: 1999
+  Antonym loadings correlation: {'Quality & Reliability': -0.71, 'Accessibility & Understandability': -0.751, 'Novelty & Engagement': 0.294}
+
+  Spearman ρ  (n ≈ 1999):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.016                 0.064                 -0.022
+OA                                        0.099                 0.070                 -0.020
+RQM                                       0.023                 0.112                 -0.038
+Ref_num                                   0.068                 0.166                 -0.112
+SMP                                      -0.029                -0.106                  0.040
+SOTA                                      0.119                 0.134                  0.035
+TNCSI                                     0.098                 0.176                 -0.055
+TNCSI_SP                                  0.128                 0.176                 -0.040
+cites                                     0.130                 0.195                 -0.078
+is_broad                                  0.019                 0.024                  0.045
+is_practical                              0.060                 0.001                  0.101
+new_dataset                               0.085                 0.108                 -0.022
+new_task                                  0.056                 0.088                 -0.045
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Llama-3.1/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Llama-3.1/loadings_heatmap.png
+
+======================================================================
+  naidv1_train_Llama-3.3
+======================================================================
+  [ Llama-3.3]  1960 OK,    5 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Llama-3.3/llm_scores.json)
+  Remaining samples after filtering: 1960
+                                     id  cites_json  ...       ARQ  Ref_num
+0  b2adef1a-e30f-4b1f-bf24-8a305de4bb76          23  ...  0.566209       48
+1  6028d7e6-b1a4-4961-a9f8-38201fcbb005           1  ...  0.939717        9
+2  002adceb-e403-48a8-8961-227284900673           2  ...  0.890369       56
+3  8508b2b5-da3e-48fd-83eb-d1b3888ac43e          20  ...  0.870636       18
+4  cbb2ca20-7736-44c8-ae7d-34e67d2241fc          21  ...  0.911543       23
+
+[5 rows x 77 columns]
+  Valid samples: 1960
+  Antonym loadings correlation: {'Quality & Reliability': -0.461, 'Accessibility & Understandability': -0.792, 'Novelty & Engagement': -0.546}
+
+  Spearman ρ  (n ≈ 1960):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.067                 0.109                 -0.053
+OA                                        0.070                 0.097                  0.029
+RQM                                       0.074                 0.117                 -0.072
+Ref_num                                  -0.136                 0.260                 -0.018
+SMP                                      -0.046                -0.071                  0.058
+SOTA                                      0.105                 0.238                 -0.065
+TNCSI                                     0.053                 0.115                 -0.008
+TNCSI_SP                                  0.060                 0.143                  0.006
+cites                                     0.031                 0.200                 -0.007
+is_broad                                 -0.009                -0.009                  0.001
+is_practical                              0.354                -0.143                 -0.009
+new_dataset                               0.132                -0.149                  0.104
+new_task                                  0.051                 0.020                  0.065
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Llama-3.3/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_train_Llama-3.3/loadings_heatmap.png
+
+======================================================================
+  naidv1_test_GPT
+======================================================================
+  [       GPT]  1237 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/GPT/llm_scores.json)
+  Remaining samples after filtering: 1237
+                                     id  cites_json  ...       ARQ  Ref_num
+0  62ddf280-7ef5-4be8-af03-dc526788e010          10  ...  0.817200       35
+1  a5284248-cbfe-4557-84e2-17293962a7b0           4  ...  0.374816       28
+2  fccabc71-6692-426c-8ec0-b3ee585a002d          11  ...  0.954991       39
+3  15ba7c96-a7de-4029-8f37-310f0dfcadf9          65  ...  0.697667       73
+4  14909bfe-7fd9-47f7-af3f-dd1c6b6f7be0           3  ...  0.438419       45
+
+[5 rows x 77 columns]
+  Valid samples: 1237
+  Antonym loadings correlation: {'Quality & Reliability': -0.864, 'Accessibility & Understandability': -0.873, 'Novelty & Engagement': -0.768}
+
+  Spearman ρ  (n ≈ 1237):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                      -0.026                 0.062                  0.048
+OA                                        0.030                 0.158                  0.204
+RQM                                       0.056                 0.095                  0.093
+Ref_num                                   0.005                 0.377                 -0.024
+SMP                                      -0.143                -0.114                 -0.109
+SOTA                                     -0.173                 0.141                  0.262
+TNCSI                                     0.087                 0.171                  0.107
+TNCSI_SP                                  0.095                 0.225                  0.138
+cites                                     0.094                 0.264                  0.141
+is_broad                                  0.135                 0.018                 -0.017
+is_practical                              0.147                -0.195                  0.254
+new_dataset                               0.318                -0.019                  0.053
+new_task                                  0.168                 0.084                  0.024
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_GPT/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_GPT/loadings_heatmap.png
+
+======================================================================
+  naidv1_test_Deepseek
+======================================================================
+  [  Deepseek]  1213 OK,   24 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Deepseek/llm_scores.json)
+  Remaining samples after filtering: 1213
+                                     id  cites_json  ...       ARQ  Ref_num
+0  23478748-9519-408a-9c44-ccc4dd124d6f          19  ...  0.723166       67
+1  bbb3e6b5-5fc0-4be5-84ed-c486bcf1cce2          18  ...  0.830777       27
+2  80ff701b-bc14-4cbd-b835-bde928341c30          45  ...  0.928132       60
+3  bbe1beb8-baca-4479-b09f-7e66cde65456           1  ...  0.774360       14
+4  76d450ea-263a-4a9b-90b9-2e2242e88d9b          10  ...  0.945286       65
+
+[5 rows x 77 columns]
+  Valid samples: 1213
+  Antonym loadings correlation: {'Quality & Reliability': -0.846, 'Accessibility & Understandability': -0.786, 'Novelty & Engagement': -0.861}
+
+  Spearman ρ  (n ≈ 1213):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.041                 0.062                  0.044
+OA                                        0.023                 0.119                  0.176
+RQM                                       0.079                 0.082                  0.072
+Ref_num                                  -0.080                 0.269                 -0.004
+SMP                                      -0.105                -0.069                 -0.070
+SOTA                                     -0.017                 0.204                  0.235
+TNCSI                                     0.077                 0.115                  0.075
+TNCSI_SP                                  0.080                 0.161                  0.108
+cites                                     0.090                 0.184                  0.097
+is_broad                                  0.067                -0.012                 -0.013
+is_practical                              0.236                -0.100                  0.192
+new_dataset                               0.249                -0.053                  0.099
+new_task                                  0.142                 0.020                  0.093
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Deepseek/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Deepseek/loadings_heatmap.png
+
+======================================================================
+  naidv1_test_Llama-3.1
+======================================================================
+  [ Llama-3.1]  1237 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Llama-3.1/llm_scores.json)
+  Remaining samples after filtering: 1237
+                                     id  cites_json  ...       ARQ  Ref_num
+0  f8401930-1db6-4a46-b1dc-6e4ab23a2db1          19  ...  0.630881       56
+1  46b31606-9d3d-4657-bb95-94ca332230bb           5  ...  0.613027       54
+2  2352ac7e-52d2-4b96-8938-67c69ffb2c0f          10  ...  0.351068       16
+3  9e5eaaaf-1503-4510-8e37-99518a4c6e9a           5  ...  0.791609       41
+4  fde8fc29-dcf5-4611-90cf-ebf7d56f34ea          35  ...  0.926614       41
+
+[5 rows x 77 columns]
+  Valid samples: 1237
+  Antonym loadings correlation: {'Quality & Reliability': -0.707, 'Accessibility & Understandability': -0.748, 'Novelty & Engagement': 0.26}
+
+  Spearman ρ  (n ≈ 1237):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.019                 0.045                 -0.030
+OA                                        0.097                 0.111                  0.002
+RQM                                       0.022                 0.072                 -0.057
+Ref_num                                   0.078                 0.232                 -0.113
+SMP                                      -0.026                -0.098                  0.046
+SOTA                                      0.170                 0.179                  0.014
+TNCSI                                     0.064                 0.142                 -0.069
+TNCSI_SP                                  0.117                 0.181                 -0.065
+cites                                     0.086                 0.162                 -0.084
+is_broad                                 -0.021                 0.008                  0.028
+is_practical                              0.047                 0.033                  0.043
+new_dataset                               0.052                 0.068                 -0.000
+new_task                                  0.051                 0.062                  0.013
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Llama-3.1/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Llama-3.1/loadings_heatmap.png
+
+======================================================================
+  naidv1_test_Llama-3.3
+======================================================================
+  [ Llama-3.3]  1222 OK,    7 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Llama-3.3/llm_scores.json)
+  Remaining samples after filtering: 1222
+                                     id  cites_json  ...       ARQ  Ref_num
+0  a442b959-39f6-47d6-8888-8407d1913a7d          17  ...  0.646643       56
+1  1582b110-12e5-4f35-a89d-d6d8274588eb          44  ...  0.481752       50
+2  33575774-c895-4eac-ac73-b1c2e0d4d230          16  ...  0.955013       49
+3  a4f8da5d-5a6f-4a2a-9b5f-3edd3e25dfe9          57  ...  0.902626       61
+4  0cc54005-1f6b-4e39-9660-9c6cdc765780          60  ...  0.830319       84
+
+[5 rows x 77 columns]
+  Valid samples: 1222
+  Antonym loadings correlation: {'Quality & Reliability': -0.474, 'Accessibility & Understandability': -0.79, 'Novelty & Engagement': -0.582}
+
+  Spearman ρ  (n ≈ 1222):
+
+Component     Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                      
+ARQ                                       0.026                 0.088                 -0.072
+OA                                        0.072                 0.101                  0.052
+RQM                                       0.072                 0.104                 -0.065
+Ref_num                                  -0.094                 0.296                 -0.081
+SMP                                      -0.073                -0.072                  0.001
+SOTA                                      0.098                 0.248                 -0.055
+TNCSI                                     0.035                 0.130                 -0.028
+TNCSI_SP                                  0.031                 0.167                 -0.028
+cites                                     0.020                 0.192                 -0.047
+is_broad                                  0.032                -0.036                  0.006
+is_practical                              0.324                -0.095                  0.003
+new_dataset                               0.158                -0.143                  0.096
+new_task                                  0.098                 0.020                  0.063
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Llama-3.3/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv1_test_Llama-3.3/loadings_heatmap.png
+
+======================================================================
+  naidv2_train_GPT
+======================================================================
+  [       GPT]  2000 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/GPT/llm_scores.json)
+  Filtered 256 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 1744
+       id  cites_json  item_1  item_2  ...       RTS  cites     TNCSI  TNCSI_SP
+0  133304           0    75.0    10.0  ...  0.750000    0.0  0.000000  0.000000
+1  131203           0    80.0    10.0  ...  0.700875    9.0  0.091318  0.135034
+2  133295           0    70.0    10.0  ...  0.250000    0.0  0.000000  0.000000
+3  131128           0    80.0    10.0  ...  0.365059    4.0  0.026646  0.263319
+4  133305           0    80.0    10.0  ...  0.665683  211.0  0.806588  0.500669
+
+[5 rows x 78 columns]
+  Valid samples: 1744
+  Antonym loadings correlation: {'Quality & Reliability': -0.806, 'Accessibility & Understandability': -0.863, 'Novelty & Engagement': -0.831}
+
+  Spearman ρ  (n ≈ 1744):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.102                 0.228                  0.125
+TNCSI_SP                                    0.096                 0.201                  0.135
+accept                                      0.014                 0.180                  0.140
+cites                                       0.146                 0.255                  0.125
+score_mean                                 -0.015                 0.213                  0.144
+score_median                               -0.025                 0.212                  0.143
+score_weighted                             -0.012                 0.211                  0.143
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_GPT/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_GPT/loadings_heatmap.png
+
+======================================================================
+  naidv2_train_Deepseek
+======================================================================
+  [  Deepseek]  1957 OK,   43 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Deepseek/llm_scores.json)
+  Filtered 252 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 1705
+       id  cites_json  item_1  item_2  ...       RTS  cites     TNCSI  TNCSI_SP
+0  131303           0    85.0    10.0  ...  0.625000   10.0  0.152072  0.381079
+1  131227           0    80.0    10.0  ...  0.365059    9.0  0.086681  0.545382
+2  131221           0    85.0    10.0  ...  0.625000    3.0  0.030454  0.030454
+3  131238           0    85.0    10.0  ...  0.402234    1.0  0.000000  0.208444
+4  131361           0    85.0    10.0  ...  0.384811   11.0  0.112993  0.565728
+
+[5 rows x 78 columns]
+  Valid samples: 1705
+  Antonym loadings correlation: {'Quality & Reliability': -0.847, 'Accessibility & Understandability': -0.871, 'Novelty & Engagement': -0.886}
+
+  Spearman ρ  (n ≈ 1705):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.139                 0.170                  0.098
+TNCSI_SP                                    0.130                 0.149                  0.103
+accept                                      0.066                 0.123                  0.089
+cites                                       0.180                 0.175                  0.095
+score_mean                                  0.083                 0.137                  0.117
+score_median                                0.057                 0.134                  0.120
+score_weighted                              0.083                 0.134                  0.117
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Deepseek/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Deepseek/loadings_heatmap.png
+
+======================================================================
+  naidv2_train_Llama-3.1
+======================================================================
+  [ Llama-3.1]  1998 OK,    2 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Llama-3.1/llm_scores.json)
+  Filtered 256 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 1742
+       id  cites_json  item_1  item_2  ...       RTS  cites     TNCSI  TNCSI_SP
+0  131265           0    80.0     5.0  ...  0.395822    7.0  0.110600  0.110600
+1  131211           0    80.0     0.0  ...  0.642497  366.0  0.917907  0.995530
+2  131178           0    80.0     0.0  ...  0.750000    4.0  0.147829  0.100346
+3  131235           0    80.0     0.0  ...  0.557529    6.0  0.033671  0.314118
+4  131168           0    80.0     5.0  ...  0.488835    9.0  0.435401  0.137697
+
+[5 rows x 78 columns]
+  Valid samples: 1742
+  Antonym loadings correlation: {'Quality & Reliability': -0.662, 'Accessibility & Understandability': -0.785, 'Novelty & Engagement': 0.128}
+
+  Spearman ρ  (n ≈ 1742):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.040                 0.105                 -0.040
+TNCSI_SP                                    0.028                 0.079                 -0.039
+accept                                      0.038                 0.050                  0.004
+cites                                       0.041                 0.097                 -0.054
+score_mean                                  0.082                 0.069                  0.017
+score_median                                0.092                 0.058                  0.019
+score_weighted                              0.080                 0.068                  0.017
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Llama-3.1/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Llama-3.1/loadings_heatmap.png
+
+======================================================================
+  naidv2_train_Llama-3.3
+======================================================================
+  [ Llama-3.3]  1980 OK,    9 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Llama-3.3/llm_scores.json)
+  Filtered 250 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 1730
+       id  cites_json  item_1  item_2  ...       RTS  cites     TNCSI  TNCSI_SP
+0  131267           0    80.0    10.0  ...  0.319951  138.0  1.000000  0.864665
+1  131544           0    80.0    10.0  ...  0.424125    3.0  0.014482  0.075038
+2  131097           0    80.0    10.0  ...  0.455251   12.0  0.109213  0.109213
+3  131726           0    80.0    10.0  ...  0.649521    2.0  0.043668  0.026117
+4  131155           0    80.0    10.0  ...  0.433727    0.0  0.000000  0.000000
+
+[5 rows x 78 columns]
+  Valid samples: 1730
+  Antonym loadings correlation: {'Quality & Reliability': -0.266, 'Accessibility & Understandability': -0.565, 'Novelty & Engagement': -0.293}
+
+  Spearman ρ  (n ≈ 1730):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.047                 0.114                  0.040
+TNCSI_SP                                    0.050                 0.077                  0.031
+accept                                      0.026                 0.079                  0.033
+cites                                       0.058                 0.118                  0.047
+score_mean                                  0.031                 0.113                  0.054
+score_median                                0.027                 0.105                  0.055
+score_weighted                              0.032                 0.112                  0.053
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Llama-3.3/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_train_Llama-3.3/loadings_heatmap.png
+
+======================================================================
+  naidv2_test_GPT
+======================================================================
+  [       GPT]  1028 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/GPT/llm_scores.json)
+  Filtered 177 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 851
+       id  cites_json  ...  TNCSI_SP                                      s2id
+0  541970           0  ...  0.782635  0288769cd4d7777441449b9d379eea08fcc58dd7
+1  549861           0  ...  0.563434  955372c369fecc85f6b4f093c312f0cfb425c688
+2  543038           0  ...  0.006182  6955a4075b7a0e383e8a237597f83c445627e507
+3  543043           0  ...  0.000000  7b5be4beea1903326997386ca769a7afc4aa9fd9
+4  548426           0  ...  0.000000  fa3322c076ea114b86e682ee58a47203c602aef1
+
+[5 rows x 79 columns]
+  Valid samples: 851
+  Antonym loadings correlation: {'Quality & Reliability': -0.8, 'Accessibility & Understandability': -0.852, 'Novelty & Engagement': -0.861}
+
+  Spearman ρ  (n ≈ 851):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.170                 0.160                 -0.034
+TNCSI_SP                                    0.133                 0.157                 -0.006
+accept                                     -0.068                 0.186                  0.078
+cites                                       0.211                 0.152                 -0.027
+score_mean                                 -0.048                 0.161                  0.094
+score_median                               -0.041                 0.131                  0.107
+score_weighted                             -0.048                 0.161                  0.094
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_GPT/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_GPT/loadings_heatmap.png
+
+======================================================================
+  naidv2_test_Deepseek
+======================================================================
+  [  Deepseek]  1015 OK,   13 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Deepseek/llm_scores.json)
+  Filtered 173 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 842
+       id  cites_json  ...  TNCSI_SP                                      s2id
+0  543388           0  ...  0.246655  fd8bb28d8c81338ab927664d086c2bf3e654b154
+1  540968           0  ...  0.876026  e0b943a7caa0604879417cd0181888930ede8947
+2  551318           0  ...  0.621151  7907b523bda48b3d7736ce9bc6ffba49e57f1ed7
+3  543532           0  ...  0.275497  cca9a148b5078106587bdf6f1dd791a375410d90
+4  544327           0  ...  0.450235  42d27a53f4fa5e15db85eb3b9ce231b274d44f02
+
+[5 rows x 79 columns]
+  Valid samples: 842
+  Antonym loadings correlation: {'Quality & Reliability': -0.831, 'Accessibility & Understandability': -0.867, 'Novelty & Engagement': -0.86}
+
+  Spearman ρ  (n ≈ 842):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.221                 0.117                  0.029
+TNCSI_SP                                    0.178                 0.110                  0.003
+accept                                      0.029                 0.136                  0.083
+cites                                       0.271                 0.098                 -0.005
+score_mean                                  0.044                 0.090                  0.080
+score_median                                0.034                 0.067                  0.081
+score_weighted                              0.045                 0.091                  0.080
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Deepseek/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Deepseek/loadings_heatmap.png
+
+======================================================================
+  naidv2_test_Llama-3.1
+======================================================================
+  [ Llama-3.1]  1028 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Llama-3.1/llm_scores.json)
+  Filtered 177 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 851
+       id  cites_json  ...  TNCSI_SP                                      s2id
+0  541731           0  ...  0.996878  863bbbbb7d5c535dab03d6c552dc6a7e60960e26
+1  541829           0  ...  0.000000  5b93a26257c0ccfa34050385c31006a18b0c2538
+2  541425           0  ...  0.597521  afb8128b2c8016326131f5a12b657f2e9589a97f
+3  541918           0  ...  0.969493  c5e9555d22118a36d19feb76c56fb164fb3b20d4
+4  541012           0  ...  0.835065  34774d962d6ce9684245c8b4ec9d4e0886d65222
+
+[5 rows x 79 columns]
+  Valid samples: 851
+  Antonym loadings correlation: {'Quality & Reliability': -0.693, 'Accessibility & Understandability': -0.805, 'Novelty & Engagement': -0.297}
+
+  Spearman ρ  (n ≈ 851):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                      -0.024                 0.161                 -0.065
+TNCSI_SP                                    0.011                 0.146                 -0.047
+accept                                      0.078                 0.062                  0.015
+cites                                      -0.042                 0.164                 -0.098
+score_mean                                  0.045                 0.009                 -0.029
+score_median                                0.048                 0.021                 -0.011
+score_weighted                              0.042                 0.012                 -0.029
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Llama-3.1/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Llama-3.1/loadings_heatmap.png
+
+======================================================================
+  naidv2_test_Llama-3.3
+======================================================================
+  [ Llama-3.3]  1022 OK,    6 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Llama-3.3/llm_scores.json)
+  Filtered 177 rows with -1 values in cites/TNCSI/TNCSI_SP
+  Remaining samples after filtering: 845
+       id  cites_json  ...  TNCSI_SP                                      s2id
+0  546417           0  ...  0.997432  66d927fdb6c2774131960c75275546fd5ee3dd72
+1  541862           0  ...  0.000000  926b9ece5e7cc8cc0033fbd14ea302338f41632e
+2  547037           0  ...  0.014888  bf21a2c072a1ea22f3b8bf908daacd7ce10e18ae
+3  543063           0  ...  0.273983  de22ecf940f3bb18ebc85e523350c0c4d8d4c5c2
+4  541948           0  ...  0.864665  f5aa366ff70215f06ae6501c322eba2f0934a7c3
+
+[5 rows x 79 columns]
+  Valid samples: 845
+  Antonym loadings correlation: {'Quality & Reliability': -0.224, 'Accessibility & Understandability': -0.536, 'Novelty & Engagement': -0.376}
+
+  Spearman ρ  (n ≈ 845):
+
+Component       Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Target                                                                                        
+TNCSI                                       0.037                 0.065                  0.076
+TNCSI_SP                                    0.036                 0.050                  0.087
+accept                                     -0.047                 0.014                  0.013
+cites                                       0.042                 0.066                  0.067
+score_mean                                 -0.070                 0.016                 -0.018
+score_median                               -0.041                 0.018                  0.005
+score_weighted                             -0.073                 0.015                 -0.017
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Llama-3.3/scree_plot.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/naidv2_test_Llama-3.3/loadings_heatmap.png
+
+
+================================================================================
+  CROSS-MODEL SUMMARY
+================================================================================
+
+  Saved cross-model summary → /mnt/data/son/Reviewerly/analysis_results/ver3/cross_model_summary.csv
+
+  --- naidv1 | Target = cites ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.090                 0.184                  0.097
+          train                              0.103                 0.225                  0.151
+GPT       test                               0.094                 0.264                  0.141
+          train                              0.100                 0.284                  0.205
+Llama-3.1 test                               0.086                 0.162                 -0.084
+          train                              0.130                 0.195                 -0.078
+Llama-3.3 test                               0.020                 0.192                 -0.047
+          train                              0.031                 0.200                 -0.007
+
+  --- naidv1 | Target = TNCSI ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.077                 0.115                  0.075
+          train                              0.090                 0.134                  0.143
+GPT       test                               0.087                 0.171                  0.107
+          train                              0.096                 0.193                  0.160
+Llama-3.1 test                               0.064                 0.142                 -0.069
+          train                              0.098                 0.176                 -0.055
+Llama-3.3 test                               0.035                 0.130                 -0.028
+          train                              0.053                 0.115                 -0.008
+
+  --- naidv1 | Target = TNCSI_SP ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.080                 0.161                  0.108
+          train                              0.103                 0.157                  0.151
+GPT       test                               0.095                 0.225                  0.138
+          train                              0.091                 0.210                  0.195
+Llama-3.1 test                               0.117                 0.181                 -0.065
+          train                              0.128                 0.176                 -0.040
+Llama-3.3 test                               0.031                 0.167                 -0.028
+          train                              0.060                 0.143                  0.006
+
+  --- naidv1 | Target = Ref_num ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                              -0.080                 0.269                 -0.004
+          train                             -0.086                 0.232                  0.018
+GPT       test                               0.005                 0.377                 -0.024
+          train                             -0.058                 0.349                  0.069
+Llama-3.1 test                               0.078                 0.232                 -0.113
+          train                              0.068                 0.166                 -0.112
+Llama-3.3 test                              -0.094                 0.296                 -0.081
+          train                             -0.136                 0.260                 -0.018
+
+  --- naidv1 | Target = RQM ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.079                 0.082                  0.072
+          train                              0.100                 0.105                  0.086
+GPT       test                               0.056                 0.095                  0.093
+          train                              0.087                 0.111                  0.060
+Llama-3.1 test                               0.022                 0.072                 -0.057
+          train                              0.023                 0.112                 -0.038
+Llama-3.3 test                               0.072                 0.104                 -0.065
+          train                              0.074                 0.117                 -0.072
+
+  --- naidv1 | Target = SMP ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                              -0.105                -0.069                 -0.070
+          train                             -0.114                -0.086                 -0.062
+GPT       test                              -0.143                -0.114                 -0.109
+          train                             -0.150                -0.106                 -0.059
+Llama-3.1 test                              -0.026                -0.098                  0.046
+          train                             -0.029                -0.106                  0.040
+Llama-3.3 test                              -0.073                -0.072                  0.001
+          train                             -0.046                -0.071                  0.058
+
+  --- naidv2 | Target = score_mean ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.044                 0.090                  0.080
+          train                              0.083                 0.137                  0.117
+GPT       test                              -0.048                 0.161                  0.094
+          train                             -0.015                 0.213                  0.144
+Llama-3.1 test                               0.045                 0.009                 -0.029
+          train                              0.082                 0.069                  0.017
+Llama-3.3 test                              -0.070                 0.016                 -0.018
+          train                              0.031                 0.113                  0.054
+
+  --- naidv2 | Target = score_weighted ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.045                 0.091                  0.080
+          train                              0.083                 0.134                  0.117
+GPT       test                              -0.048                 0.161                  0.094
+          train                             -0.012                 0.211                  0.143
+Llama-3.1 test                               0.042                 0.012                 -0.029
+          train                              0.080                 0.068                  0.017
+Llama-3.3 test                              -0.073                 0.015                 -0.017
+          train                              0.032                 0.112                  0.053
+
+  --- naidv2 | Target = score_median ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.034                 0.067                  0.081
+          train                              0.057                 0.134                  0.120
+GPT       test                              -0.041                 0.131                  0.107
+          train                             -0.025                 0.212                  0.143
+Llama-3.1 test                               0.048                 0.021                 -0.011
+          train                              0.092                 0.058                  0.019
+Llama-3.3 test                              -0.041                 0.018                  0.005
+          train                              0.027                 0.105                  0.055
+
+  --- naidv2 | Target = accept ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.029                 0.136                  0.083
+          train                              0.066                 0.123                  0.089
+GPT       test                              -0.068                 0.186                  0.078
+          train                              0.014                 0.180                  0.140
+Llama-3.1 test                               0.078                 0.062                  0.015
+          train                              0.038                 0.050                  0.004
+Llama-3.3 test                              -0.047                 0.014                  0.013
+          train                              0.026                 0.079                  0.033
+
+  --- naidv2 | Target = cites ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.271                 0.098                 -0.005
+          train                              0.180                 0.175                  0.095
+GPT       test                               0.211                 0.152                 -0.027
+          train                              0.146                 0.255                  0.125
+Llama-3.1 test                              -0.042                 0.164                 -0.098
+          train                              0.041                 0.097                 -0.054
+Llama-3.3 test                               0.042                 0.066                  0.067
+          train                              0.058                 0.118                  0.047
+
+  --- naidv2 | Target = TNCSI ---
+Component        Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Split                                                                                
+Deepseek  test                               0.221                 0.117                  0.029
+          train                              0.139                 0.170                  0.098
+GPT       test                               0.170                 0.160                 -0.034
+          train                              0.102                 0.228                  0.125
+Llama-3.1 test                              -0.024                 0.161                 -0.065
+          train                              0.040                 0.105                 -0.040
+Llama-3.3 test                               0.037                 0.065                  0.076
+          train                              0.047                 0.114                  0.040
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv1_cites.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv1_TNCSI.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv1_TNCSI_SP.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv2_score_mean.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv2_score_weighted.png
+  Saved: /mnt/data/son/Reviewerly/analysis_results/ver3/compare_naidv2_score_median.png
+
+  Antonym Consistency:
+Component          Accessibility & Understandability  Novelty & Engagement  Quality & Reliability
+Model     Dataset                                                                                
+Deepseek  naidv1                              -0.798                -0.858                 -0.844
+          naidv2                              -0.869                -0.873                 -0.839
+GPT       naidv1                              -0.875                -0.772                 -0.854
+          naidv2                              -0.857                -0.846                 -0.803
+Llama-3.1 naidv1                              -0.750                 0.277                 -0.708
+          naidv2                              -0.795                -0.084                 -0.678
+Llama-3.3 naidv1                              -0.791                -0.564                 -0.468
+          naidv2                              -0.550                -0.334                 -0.245
+
+
+================================================================================
+  ITEM-LEVEL CORRELATIONS
+================================================================================
+  [       GPT]  2000 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/GPT/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_train_GPT):
+ Item_No              Item      rho            p
+      22     22. Impactful 0.370896 2.965232e-66
+      56    56. Persuasive 0.347059 1.061360e-57
+      43 43. Comprehensive 0.335701 7.056443e-54
+      31      31. Relevant 0.335314 9.465158e-54
+      33  33. Well written 0.322373 1.360725e-49
+  Bottom-5:
+ Item_No                Item       rho            p
+       4      4. Disengaging -0.259415 4.062330e-32
+       7      7. Superficial -0.260910 1.754239e-32
+      58    58. Uninsightful -0.270461 7.236404e-35
+      15            15. Dull -0.274828 5.452721e-36
+      35 35. Inconsequential -0.326227 8.251091e-51
+  [  Deepseek]  1969 OK,   31 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Deepseek/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_train_Deepseek):
+ Item_No              Item      rho            p
+      22     22. Impactful 0.307997 1.560332e-44
+      43 43. Comprehensive 0.263720 1.100184e-32
+      37 37. Authoritative 0.258900 1.600140e-31
+       6       6. Balanced 0.254928 1.393371e-30
+      25      25. Engaging 0.234008 6.726654e-26
+  Bottom-5:
+ Item_No               Item       rho            p
+      21 21. Poorly-sourced -0.182786 2.967579e-16
+      28   28. Unconvincing -0.192750 6.212415e-18
+       4     4. Disengaging -0.202678 1.063692e-19
+      15           15. Dull -0.213984 7.948214e-22
+      26         26. Narrow -0.231533 2.252616e-25
+  [ Llama-3.1]  1999 OK,    1 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Llama-3.1/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_train_Llama-3.1):
+ Item_No            Item      rho            p
+       1   1. Insightful 0.237093 6.092291e-27
+      22   22. Impactful 0.197241 5.547896e-19
+      17 17. Provocative 0.187416 2.934688e-17
+      11  11. Innovative 0.172348 8.559411e-15
+      60    60. Exciting 0.172127 9.269411e-15
+  Bottom-5:
+ Item_No             Item      rho        p
+      45 45. Conventional 0.064691 0.003809
+       9       9. Concise 0.062584 0.005124
+       6      6. Balanced 0.061692 0.005795
+      27   27. Methodical 0.050818 0.023078
+      14     14. Rigorous 0.028430 0.203887
+  [ Llama-3.3]  1960 OK,    5 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv1/Llama-3.3/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_train_Llama-3.3):
+ Item_No              Item      rho            p
+      22     22. Impactful 0.219770 7.274037e-23
+      43 43. Comprehensive 0.181445 5.722655e-16
+      41      41. Original 0.170599 2.877693e-14
+      17   17. Provocative 0.170546 2.930962e-14
+      29      29. Exciting 0.168809 5.363269e-14
+  Bottom-5:
+ Item_No                Item       rho            p
+      35 35. Inconsequential -0.081180 3.210997e-04
+       8          8. Ethical -0.103467 4.431197e-06
+      21  21. Poorly-sourced -0.105381 2.932898e-06
+       2        2. Haphazard -0.142328 2.461670e-10
+      47   47. Unprovocative -0.142507 2.336548e-10
+  [       GPT]  1237 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/GPT/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_test_GPT):
+ Item_No              Item      rho            p
+      56    56. Persuasive 0.307351 1.795172e-28
+      22     22. Impactful 0.306267 2.835189e-28
+      31      31. Relevant 0.300658 2.924580e-27
+      37 37. Authoritative 0.298140 8.200184e-27
+      43 43. Comprehensive 0.291185 1.341544e-25
+  Bottom-5:
+ Item_No                Item       rho            p
+      58    58. Uninsightful -0.210790 6.859519e-14
+      28    28. Unconvincing -0.224798 1.234306e-15
+      15            15. Dull -0.240676 9.265532e-18
+      47   47. Unprovocative -0.242242 5.607603e-18
+      35 35. Inconsequential -0.283163 3.062869e-24
+  [  Deepseek]  1213 OK,   24 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Deepseek/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_test_Deepseek):
+ Item_No              Item      rho            p
+      37 37. Authoritative 0.195843 5.961950e-12
+      43 43. Comprehensive 0.195056 7.265213e-12
+      22     22. Impactful 0.193350 1.111548e-11
+      29      29. Exciting 0.185854 6.882551e-11
+      60      60. Exciting 0.182790 1.419525e-10
+  Bottom-5:
+ Item_No             Item       rho            p
+      28 28. Unconvincing -0.158614 2.796163e-08
+      54   54. Derivative -0.158792 2.696993e-08
+      15         15. Dull -0.164458 8.354699e-09
+      45 45. Conventional -0.186234 6.286606e-11
+      26       26. Narrow -0.206926 3.379646e-13
+  [ Llama-3.1]  1237 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Llama-3.1/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_test_Llama-3.1):
+ Item_No            Item      rho            p
+       1   1. Insightful 0.216134 1.530177e-14
+      17 17. Provocative 0.169234 2.106586e-09
+      11  11. Innovative 0.167767 2.908485e-09
+      41    41. Original 0.157736 2.446057e-08
+       3 3. Well-sourced 0.148243 1.627234e-07
+  Bottom-5:
+ Item_No           Item       rho        p
+      36 36. Accessible  0.036742 0.196576
+       9     9. Concise  0.034458 0.225878
+      48 48. Structured  0.024938 0.380848
+      27 27. Methodical  0.016245 0.568131
+      14   14. Rigorous -0.001368 0.961653
+  [ Llama-3.3]  1222 OK,    7 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv1/Llama-3.3/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv1_test_Llama-3.3):
+ Item_No                  Item      rho            p
+      22         22. Impactful 0.221067 5.416212e-15
+      17       17. Provocative 0.210343 1.096392e-13
+      60          60. Exciting 0.195300 5.716092e-12
+      29          29. Exciting 0.191708 1.404322e-11
+      34 34. Hypothesis-driven 0.171006 1.786583e-09
+  Bottom-5:
+ Item_No                 Item       rho            p
+      50       50. Irrelevant -0.045555 1.114617e-01
+      38 38. Not well written -0.048889 8.758207e-02
+      45     45. Conventional -0.052855 6.473646e-02
+       2         2. Haphazard -0.084378 3.158843e-03
+      47    47. Unprovocative -0.164305 7.601828e-09
+  [       GPT]  2000 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/GPT/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_train_GPT):
+ Item_No             Item      rho            p
+      33 33. Well written 0.272003 2.920088e-35
+      22    22. Impactful 0.269109 1.596119e-34
+      56   56. Persuasive 0.263035 5.273826e-33
+      31     31. Relevant 0.255816 2.995443e-31
+      25     25. Engaging 0.247213 3.128608e-29
+  Bottom-5:
+ Item_No             Item       rho            p
+       7   7. Superficial -0.163071 2.178563e-13
+      58 58. Uninsightful -0.178006 1.059029e-15
+      28 28. Unconvincing -0.186401 4.290626e-17
+      15         15. Dull -0.205514 1.626135e-20
+       4   4. Disengaging -0.216770 1.071362e-22
+  [  Deepseek]  1957 OK,   43 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Deepseek/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_train_Deepseek):
+ Item_No             Item      rho            p
+      29     29. Exciting 0.202554 1.445262e-19
+      60     60. Exciting 0.199769 4.586704e-19
+      22    22. Impactful 0.198931 6.472347e-19
+      33 33. Well written 0.196779 1.555405e-18
+      48   48. Structured 0.183771 2.519364e-16
+  Bottom-5:
+ Item_No               Item       rho            p
+      44        44. Verbose -0.159288 1.366724e-12
+      26         26. Narrow -0.159474 1.286249e-12
+      28   28. Unconvincing -0.167638 8.386570e-14
+      13 13. Circumlocutory -0.167688 8.244619e-14
+      24   24. Unstructured -0.168456 6.329705e-14
+  [ Llama-3.1]  1998 OK,    2 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Llama-3.1/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_train_Llama-3.1):
+ Item_No            Item      rho            p
+       1   1. Insightful 0.134957 1.392270e-09
+      60    60. Exciting 0.120770 6.136938e-08
+       3 3. Well-sourced 0.120657 6.314423e-08
+      29    29. Exciting 0.117555 1.367421e-07
+      17 17. Provocative 0.098826 9.621255e-06
+  Bottom-5:
+ Item_No             Item      rho        p
+      45 45. Conventional 0.036116 0.106552
+       9       9. Concise 0.035016 0.117662
+      20     20. Coherent 0.033139 0.138669
+      53    53. Objective 0.032206 0.150134
+      59  59. Theoretical 0.031405 0.160546
+  [ Llama-3.3]  1980 OK,    9 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/train/naidv2/Llama-3.3/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_train_Llama-3.3):
+ Item_No            Item      rho            p
+      60    60. Exciting 0.140303 3.606025e-10
+      29    29. Exciting 0.131070 4.803402e-09
+      22   22. Impactful 0.105805 2.378117e-06
+      17 17. Provocative 0.101694 5.787163e-06
+      31    31. Relevant 0.096636 1.651715e-05
+  Bottom-5:
+ Item_No               Item       rho        p
+      52 52. Non-replicable -0.060370 0.007208
+      58   58. Uninsightful -0.060682 0.006914
+      59    59. Theoretical -0.067190 0.002778
+       2       2. Haphazard -0.095312 0.000022
+      47  47. Unprovocative -0.109604 0.000001
+  [       GPT]  1028 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/GPT/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_test_GPT):
+ Item_No                   Item      rho            p
+      25           25. Engaging 0.194875 2.956270e-10
+      36         36. Accessible 0.193025 4.373006e-10
+      40 40. Easy to understand 0.175359 1.518066e-08
+      20           20. Coherent 0.150011 1.356996e-06
+      29           29. Exciting 0.149615 1.447612e-06
+  Bottom-5:
+ Item_No                        Item       rho            p
+       4              4. Disengaging -0.146993 2.212684e-06
+      59             59. Theoretical -0.159532 2.722337e-07
+      15                    15. Dull -0.177655 9.761914e-09
+      49 49. Difficult to understand -0.201556 6.958732e-11
+      18            18. Inaccessible -0.207680 1.767133e-11
+  [  Deepseek]  1015 OK,   13 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Deepseek/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_test_Deepseek):
+ Item_No                   Item      rho            p
+      36         36. Accessible 0.184864 2.964590e-09
+      40 40. Easy to understand 0.171907 3.565280e-08
+      25           25. Engaging 0.142626 5.074648e-06
+       3        3. Well-sourced 0.132826 2.182747e-05
+      33       33. Well written 0.130203 3.171931e-05
+  Bottom-5:
+ Item_No                        Item       rho            p
+      15                    15. Dull -0.095945 2.213304e-03
+      44                 44. Verbose -0.106674 6.639172e-04
+      26                  26. Narrow -0.119921 1.283053e-04
+      18            18. Inaccessible -0.171224 4.044536e-08
+      49 49. Difficult to understand -0.201991 8.338210e-11
+  [ Llama-3.1]  1028 OK,    0 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Llama-3.1/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_test_Llama-3.1):
+ Item_No              Item      rho        p
+      42    42. Unbalanced 0.105168 0.000732
+      19     19. Empirical 0.095475 0.002181
+      51 51. Controversial 0.091944 0.003171
+      24  24. Unstructured 0.090634 0.003633
+       3   3. Well-sourced 0.090063 0.003852
+  Bottom-5:
+ Item_No           Item       rho        p
+      14   14. Rigorous -0.013692 0.661036
+      41   41. Original -0.013859 0.657155
+      27 27. Methodical -0.015071 0.629335
+       6    6. Balanced -0.016089 0.606364
+       5   5. Technical -0.036708 0.239629
+  [ Llama-3.3]  1022 OK,    6 skipped  (/mnt/data/son/Reviewerly/dataset/ver3/test/naidv2/Llama-3.3/llm_scores.json)
+
+  Top-5 items correlated with cites (naidv2_test_Llama-3.3):
+ Item_No              Item      rho        p
+      19     19. Empirical 0.115052 0.000228
+      55     55. Unethical 0.092685 0.003019
+      43 43. Comprehensive 0.084414 0.006932
+      48    48. Structured 0.079025 0.011498
+      12    12. Subjective 0.070970 0.023274
+  Bottom-5:
+ Item_No                        Item       rho            p
+      18            18. Inaccessible -0.074458 1.727815e-02
+      58            58. Uninsightful -0.087726 5.008920e-03
+      15                    15. Dull -0.117959 1.570803e-04
+      49 49. Difficult to understand -0.118259 1.510985e-04
+      59             59. Theoretical -0.166303 8.929384e-08
+
+
+Done.  All outputs saved to: /mnt/data/son/Reviewerly/analysis_results/ver3
