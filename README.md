@@ -6,6 +6,14 @@ This repository contains code, configuration files, and precomputed analysis out
 
 ---
 
+## Pipeline
+
+![Pipeline Overview](images/impact_pipeline_1.png)
+
+![Pipeline Details](images/impact_pipeline_2.png)
+
+---
+
 ## Key Findings
 
 Our reproducibility study reveals four main insights:
